@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.heo.myapplication.activitys.Age1Activity">
+
+    <Button
+        android:id="@+id/age_button1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@mipmap/ic_launcher"
+        android:text="난 올해 몇 살!?!?"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/age_button2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@mipmap/ic_launcher_round"
+        android:text="부모님과 나랑\n몇 살 차이일까!?!?!"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/age_button3"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        />
+
+</LinearLayout>
+
+

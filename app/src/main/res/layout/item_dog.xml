@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_margin="5dp"
+        android:textSize="30sp"
+        android:background="#D7FFD7"
+        android:text="품종"
+        android:id="@+id/dog_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_margin="5dp"
+        android:textSize="30sp"
+        android:background="#afffff"
+        android:text="국가"
+        android:id="@+id/dog_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_margin="5dp"
+            android:textSize="30sp"
+            android:background="#e5e5e5"
+            android:text="가격"
+            android:layout_weight="1"
+            android:id="@+id/dog_text3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:background="#e5e5e5"
+            android:src="@mipmap/ic_dog"
+            android:id="@+id/dog_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

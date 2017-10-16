@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.heo.myapplication.activitys.BstActivity">
+
+    <Button
+        android:layout_margin="5dp"
+        android:text="12,000원(보신탕,삼계탕)"
+        android:id="@+id/click1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="5dp"
+        android:text="4,000원(소주,맥주)"
+        android:id="@+id/click2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="5dp"
+        android:text="15,000원(보신탕 특)"
+        android:id="@+id/click3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="5dp"
+        android:text="25,000원(전골,수육 1인분)"
+        android:id="@+id/click4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="5dp"
+        android:text="50,000원(옻닭,옻오리)"
+        android:id="@+id/click5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_margin="5dp"
+        android:text="1,000원(공기밥,음료수)"
+        android:id="@+id/click6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_margin="5dp"
+        android:hint="기타 가격을 적어주세요."
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="5dp"
+        android:text="전체 가격 확인 // 초기화"
+        android:id="@+id/click7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textTv"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:gravity="right"
+        android:textSize="15sp"
+        android:text="황가네 계산기"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

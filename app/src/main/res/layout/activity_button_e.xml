@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.heo.myapplication.activitys.ButtonEActivity">
+
+    <Button
+        android:id="@+id/buttone1_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1a" />
+
+    <Button
+        android:id="@+id/buttone2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2a" />
+
+    <Button
+        android:id="@+id/buttone3_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3a" />
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="11111111111" />
+
+    <EditText
+        android:hint="여기에 입력해주세요"
+        android:id="@+id/edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="전송"
+        android:id="@+id/send_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>

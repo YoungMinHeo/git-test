@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.heo.myapplication.activitys.Age2Activity">
+    <EditText
+        android:id="@+id/age2_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="태어난 년도를 적어주세요."
+        />
+    <Button
+        android:id="@+id/age2_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계산하기"
+        />
+    <TextView
+        android:id="@+id/age2_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
